@@ -1,6 +1,6 @@
 # Portafolio-JuanSalas
 🌐 Este es mi Portafolio Web
-Estoy desarrollando este proyecto como parte de mi aprendizaje en el desarrollo web.
+Estoy desarrollando esto como parte de mi aprendizaje en el desarrollo web. Dicho portafolio sera el espacio en donde pueda mostrar mis conocimiento y progreso como estudiante y futuro Tecnino en Programacion.
 
 🛠️ Tecnologias utilizadas: HTML y CSS
 
