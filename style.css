@@ -1,24 +1,41 @@
 .navigation{
     display: flex;
-    justify-content: center;
-    gap: 10rem;
+    justify-content: flex-end;
+    gap: 3rem;
+    margin: 2rem 3rem;
     list-style: none;
-    margin: 400px;
 }
 a{
+    font-size: 18px;
     text-decoration: none;
-    color: darkblue;
+    color: #8b807b;
 }
-h1{
+h1{ 
+    font-size: 5rem;
+    color: #ff6b35;
     display: flex;
     justify-content: center;
-    margin: 100px 0;
-    color: rgb(67, 8, 123);
+    margin: 7rem;
+
+    animation-name: animacion;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animacion {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
 }
 p{
-    display: flex;
+    font-size: 18px;
+    display:flex;
     justify-content: center;
+    color: #8b807b;
 }
-body{
-    background-color: rgb(178, 217, 217);
+
+body {
+    background-color: #1c1e22;
+    background-image:
+    linear-gradient(hsla(0, 5%, 32%, 0.336) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(99, 91, 91, 0.367) 1px, transparent 1px);
+    background-size: 40px 40px;
 }
