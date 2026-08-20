@@ -5,33 +5,39 @@
     margin: 2rem 3rem;
     list-style: none;
 }
-a{
-    font-size: 18px;
-    text-decoration: none;
-    color: #8b807b;
+.navigation li {
+    width: 100px;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #1c1e22;
+    box-shadow: 0 0 10px #615446;
 }
-h1{ 
+a{
+    text-decoration: none;
+    color: #9c8a82;
+    font-size: 18px;
+}
+p {
+    font-size: 2rem;
+}
+
+h2 { 
     font-size: 5rem;
     color: #ff6b35;
+    text-shadow:0 0 0.5rem black ;
     display: flex;
     justify-content: center;
-    margin: 7rem;
+    margin: 6rem;
 
     animation-name: animacion;
-    animation-duration: 2.5s;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
 }
 @keyframes animacion {
     0%, 100% { transform: scale(1); }
     50% { transform: scale(1.05); }
 }
-p{
-    font-size: 18px;
-    display:flex;
-    justify-content: center;
-    color: #8b807b;
-}
-
 body {
     background-color: #1c1e22;
     background-image:
