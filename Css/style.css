@@ -2,8 +2,15 @@
     display: flex;
     justify-content: flex-end;
     gap: 3rem;
-    margin: 2rem 3rem;
+    margin: 0;
+    padding: 0 0;
     list-style: none;
+}
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
 }
 .navigation li {
     width: 100px;
@@ -17,18 +24,24 @@ a{
     text-decoration: none;
     color: #9c8a82;
     font-size: 18px;
+    letter-spacing: 1px;
 }
 p {
     font-size: 2rem;
 }
-
+h1 {
+    text-align: center;
+    
+    color: rgba(238, 237, 236, 0.568);
+    background-color: #1c1e22;
+    margin: 0;
+}
 h2 { 
     font-size: 5rem;
     color: #ff6b35;
-    text-shadow:0 0 0.5rem black ;
     display: flex;
     justify-content: center;
-    margin: 6rem;
+    margin: 5rem;
 
     animation-name: animacion;
     animation-duration: 1.5s;
