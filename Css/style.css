@@ -1,3 +1,7 @@
+:root {
+    --texto-color: #c7c3ad;
+    --texto-letras:Arial, Helvetica, sans-serif ;
+}
 .navigation{
     display: flex;
     justify-content: flex-end;
@@ -17,7 +21,7 @@
 }
 a{
     text-decoration: none;
-    color: #c7c3ad;
+    color: var(--texto-color);
     font-size: 18px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -25,7 +29,7 @@ h1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     font-size: 1.5rem;
     text-align: center;
-    color: #c7c3ad;
+    color: var(--texto-color);
     border: 3px solid #a19e8d;
     padding: 5px;
     margin: 0;
@@ -52,17 +56,17 @@ body {
     linear-gradient(90deg, #31312d 10px, transparent);
     background-size: 20px;
 }
-.tarjeta-codigo {
+.tarjeta-sobremi {
     max-width:max-content;
-    width: 90%;
     margin:auto;
-    background-color: #111111bd;
+    background-color: #111111;
     border-radius: 0.5rem;
-    padding: 5px;
+    padding: 0.5rem;
 }
 pre{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    color: #c7c3ad;
+    color: var(--texto-color);
     line-height:1.4;
 }
 span {
@@ -83,9 +87,20 @@ span {
     justify-content: center;
     margin-top: 6rem;
 }
-.container-sobremi {
-    color: #a19e8d;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.experiencia, .estudios {
+    display: flex;
+    justify-content: center;
+    font-family: var(--texto-letras);
+    font-size:large;
+    padding: 1rem;
+}
+.container-experiencia, .container-estudios {
+    margin: 5rem;
+    width: 100%;
+    padding: 1.5rem;
+    text-align:center;
+    color: var(--texto-color);
+    line-height: 1.6;
 }
 
 @media(max-width: 767px){
@@ -101,10 +116,10 @@ span {
     }
     .saludo {
         font-size: 4rem;
-        margin: 1.5rem, 0;
+        margin: 1.5rem 0;
     }
     pre {
         font-size: 14px;
+        overflow-x: auto;
     }
-
 }
