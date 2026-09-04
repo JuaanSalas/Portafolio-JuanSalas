@@ -1,0 +1,27 @@
+.tarjeta-sobremi {
+    width: 90%;
+    max-width:max-content;
+    margin:auto;
+    background-color: rgba(0, 0, 0, 0.452);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+pre{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: var(--texto-color);
+    line-height:1.4;
+}
+span {
+    color: #ff6b35;
+}
+.boton {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.rojo { background-color: #ff5f56; }
+.amarillo { background-color: #ffbd2e; }
+.verde { background-color: #27c93f; }

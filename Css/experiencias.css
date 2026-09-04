@@ -1,0 +1,22 @@
+.experiencia {
+    background-color: #2e2e2c;
+    border-radius: 1rem;
+    border: 4px solid #444443;
+    padding: 0 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+.titulo-experiencia {
+    font-family: var(--texto-letras);
+    color: var(--texto-color);
+    font-size: 1.75rem;
+}
+.container-experiencia {
+    color: var(--texto-color);
+    font-family: var(--texto-letras);
+    font-size: large;
+    max-width: max-content;
+}
