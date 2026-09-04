@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="content-lenguage" content="es">
@@ -8,22 +8,15 @@
     <meta name="keywords" content="portafolio, desarrollador web, programador">
     <meta name="author" content="Juan Salas">
     <title>Portafolio-web</title>
-
-    <!-- Importación de fuente Orbitron -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./Css/style.css">
-    <link rel="stylesheet" href="./Css/style.css">
-
 </head>
 <body>
     <header>
         <div class="encabezado">
-            <h1>Juan Pablo <br>-- Salas --</h1>
+            <h1>Juan Pablo Salas</h1>
             <nav>
                 <ul class="navigation">
-                    <li><a href="#contaco">Contacto</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                     <li><a href="#proyectos">Proyectos</a></li>
                     <li><a href="#sobreMi">Sobre mí</a></li>
                 </ul>
@@ -36,28 +29,32 @@
                 <span class="boton amarillo"></span>
                 <span class="boton verde"></span>
                 <pre>
- {
-  "about-me" : {
-    "nombre" : "<span>Juan Salas</span>",
-    "carrera-en-progreso" : "<span>Tecnicatura en Programacion</span>", 
-    "tecnologias" : "[<span>Python</span>], [<span>Java</span>], [<span>JavaScript</span>]"
+ { 
+  "about-me : {
+   "nombre" : "<span>Juan Salas</span>",
+   "carrera-en-progreso" : "<span>Tecnicatura en Programación</span>", 
+   "tecnologias" : ["<span>Python</span>", "<span>Java</span>", "<span>JavaScript</span>"]
   }
  }</pre>
             </article>
         </section>
     </header>
-    <main>
-        <section id="experiencia" class="experiencia">
-            <article class="container-experiencia">
-                <h2>Experiencia laboral</h2>
-                <p>Sin experiencia laboral formal</p>
+    <main class="main-container">
+        <section id="estudios" class="estudios">
+            <div class="encabezado-estudios">
+            <img class="img-logoUTN" src="./Assets/imagenUTN.png" alt="UTN">   
+            <h2 class="titulo-estudios">Formación</h2>
+            </div>
+            <article class="container-estudios">
+                <h3>Tecnicatura Universitaria en Programación</h3>
+                <h4>Universidad Tecnológica Nacional (UTN - FRSR) - Argentina</h4>
+                <p>Cursando 1° año | 2° semestre</p>
             </article>
         </section>
-        <section id="estudios" class="estudios">
-            <article class="container-estudios">
-                <h2>Mis estudios</h2>
-                <h3>Tecnicatura en programacion</h3>
-                <p>Actualmente me encuentro cursando el segundo semestre de una tecnicatura en programacion de la Universidad Tecnologica Nacional (UTN) - FRSR, Argentina</p>
+        <section id="experiencia" class="experiencia">
+            <h2 class="titulo-experiencia">Experiencia laboral</h2>
+            <article class="container-experiencia">
+                <p>Sin experiencia laboral formal</p>
             </article>
         </section>
     </main>
