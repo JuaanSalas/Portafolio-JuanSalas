@@ -54,6 +54,7 @@ body {
     background-image: radial-gradient(circle at 50% 30%, #444443 0%, #272626 70%); /* 1f242d*/
 }
 .tarjeta-sobremi {
+    width: 90%;
     max-width:max-content;
     margin:auto;
     background-color: rgba(0, 0, 0, 0.452);
@@ -138,6 +139,10 @@ span {
     .saludo {
         font-size: 4rem;
         margin: 1.5rem 0;
+    }
+    .tarjeta-sobremi {
+        width: 95%;
+        padding: 0.75rem;
     }
     pre {
         font-size: 14px;
