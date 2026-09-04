@@ -6,14 +6,14 @@
     display: flex;
     margin: 0;
     list-style: none;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 .encabezado {
     margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2px 1rem;
+    padding: 0 12px;
 }
 .encabezado h1 {
     margin: 0.5rem;
@@ -24,8 +24,15 @@
 a{
     text-decoration: none;
     color: var(--texto-color);
-    font-size: 20px;
+    font-size: 17px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bienvenida {
+    color: var(--texto-color);
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin:-2rem;
 }
 h1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
@@ -35,28 +42,19 @@ h1 {
 }
 .saludo { 
     font-size: 4rem;
-    font-family:monospace;
+    font-family:var(--texto-letras);
     color: #ff6b35;
     display: flex;
     justify-content: center;
-    margin: 3rem;
-
-    animation-name: animacion;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-@keyframes animacion {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.05); }
+    margin-top: 2cap;
 }
 body {
     background-color: #444443;
-    background-image: radial-gradient(circle at 50% 30%, #444443 0%, #272626 70%); /* 1f242d*/
+    background-image: radial-gradient(circle at 50% 30%, #444443 0%, #272626 70%);
 }
 .sobremi {
     display: flex;
     justify-content: center;
-    margin-top: 4rem;
 }
 .main-container {
     display: flex;

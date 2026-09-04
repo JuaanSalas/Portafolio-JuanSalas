@@ -19,17 +19,14 @@
     color: var(--texto-color);
     font-size: 1.75rem;
 }
-.img-logoUTN {
-    width: 3.25rem;
-    height: 3.25rem;
-    border-radius: 50%;
-}
 .container-estudios {
     color: var(--texto-color);
     font-family: var(--texto-letras);
     font-size: large;
     max-width: max-content;
 }
-.container-estudios h3, h4, p {
-    margin: 10px 0;
+.img-logoUTN {
+    width: 3.25rem;
+    height: 3.25rem;
+    border-radius: 50%;
 }

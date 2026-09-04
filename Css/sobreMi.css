@@ -1,18 +1,19 @@
 .tarjeta-sobremi {
     width: 90%;
     max-width:max-content;
-    margin:auto;
     background-color: rgba(0, 0, 0, 0.452);
     border-radius: 0.5rem;
-    padding: 0.5rem;
+    padding: 0 10px;
 }
 pre{
+    margin-top: 10px;
+    margin-bottom: 1rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     color: var(--texto-color);
     line-height:1.4;
 }
-span {
+.valor {
     color: #ff6b35;
 }
 .boton {
@@ -21,6 +22,7 @@ span {
     width: 12px;
     margin-right: 5px;
     border-radius: 50%;
+    margin-top:8px;
 }
 .rojo { background-color: #ff5f56; }
 .amarillo { background-color: #ffbd2e; }
