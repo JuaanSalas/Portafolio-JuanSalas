@@ -1,3 +1,10 @@
+.tarjeta-sobremi {
+    width: 90%;
+    max-width:max-content;
+    background-color: rgba(0, 0, 0, 0.452);
+    border-radius: 0.5rem;
+    padding: 0 10px;
+}
 pre{
     margin-top: 10px;
     margin-bottom: 1rem;
