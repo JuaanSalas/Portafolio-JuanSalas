@@ -6,7 +6,7 @@
     display: flex;
     margin: 0;
     list-style: none;
-    gap: 1.5rem;
+    gap: 1.25rem;
 }
 .encabezado {
     margin: 0;
@@ -21,22 +21,24 @@
 .navigation li {
     padding: 0;
 }
-a{
+.navigation a{
     text-decoration: none;
     color: var(--texto-color);
-    font-size: 17px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    padding:0.5rem 0.8rem ;
+    border-radius: 10px;
+    font-family: var(--texto-letras);
+    font-weight:550;
+    transition: background-color 0.4s ease-out;
+    border-radius: 1rem;
 }
-.bienvenida {
-    color: var(--texto-color);
-    font-size: 18px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    margin:-2rem;
+.navigation a:hover{
+    color: #f35116;
+    background-color: white;
 }
 h1 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     font-size: 2rem;
+    font-family: var(--texto-letras);
     color: var(--texto-color);
     padding: 5px;
 }
@@ -58,8 +60,8 @@ body {
 }
 .main-container {
     display: flex;
+    flex-direction: column;
     gap: 1rem;
-    flex-direction: row;
     margin-top: 5rem;
 }
 @media(max-width: 767px){
