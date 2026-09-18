@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./Css/experiencias.css">
     <link rel="stylesheet" href="./Css/estudios.css">
     <link rel="stylesheet" href="./Css/proyectos.css">
+    <link rel="stylesheet" href="./Css/contacto.css">
 </head>
 <body>
     <header>
@@ -72,7 +73,7 @@
                     <div class="enlaces-proyectos">
                     <a href="#">Ver más</a>
                     <a href="#">GitHub</a>
-                    <a href="#">Tecnologias</a> 
+                    <a href="#">Tecnologías</a> 
                     </div>
                 </div>
                 <div class="proyecto">
@@ -84,7 +85,7 @@
                     <div class="enlaces-proyectos">
                     <a href="#">Ver más</a>
                     <a href="#">GitHub</a>
-                    <a href="#">Tecnologias</a> 
+                    <a href="#">Tecnologías</a> 
                     </div>
                 </div>
                 <div class="proyecto">
@@ -96,9 +97,24 @@
                     <div class="enlaces-proyectos">
                         <a href="#">Ver más</a>
                     <a href="#">GitHub</a>
-                    <a href="#">Tecnologias</a> 
+                    <a href="#">Tecnologías</a> 
                     </div>
                 </div>
+            </div>
+        </section>
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <div class="container-contacto">
+                <!--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSduTETfN6-p-ntAU7l6ihEW8Ow-c1mSJUINTcsjjyotarb4fw/viewform?embedded=true" width="640" height="1207" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>-->
+                <form action="https://formspree.io/f/xeaoovby" method="POST">
+                    <label for="nombre">Nombre</label>
+                    <input type="text"  id="nombre"  name="nombre"  placeholder="Tu nombre" required>
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="tu@email.com"required>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="message" placeholder="Escribí tu mensaje..."required></textarea>
+                    <button type="submit">Enviar mensaje</button>
+                </form>
             </div>
         </section>
     </main>
