@@ -26,7 +26,6 @@
     color: var(--texto-color);
     font-size: 1rem;
     padding:0.5rem 0.8rem ;
-    border-radius: 10px;
     font-family: var(--texto-letras);
     font-weight:550;
     transition: background-color 0.4s ease-out;
@@ -48,7 +47,7 @@ h1 {
     color: #ff6b35;
     display: flex;
     justify-content: center;
-    margin-top: 2cap;
+    margin-top: 6rem;
 }
 body {
     background-color: #444443;
@@ -106,6 +105,12 @@ body {
     .footer-social svg {
         width: 20px;
         height: 20px;
+    }
+    .navigation a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
