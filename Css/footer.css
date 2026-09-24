@@ -1,0 +1,32 @@
+.footer {
+    padding: 1rem 0;
+    color: var(--texto-color);
+    font-family: var(--texto-letras);
+}
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.footer-social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #444443;
+    transition: background-color 0.4s ease;
+    transition: transform 0.3s ease;
+}
+.footer-social a:hover {
+    background-color: black;
+    transform: scale(1.1);
+}
+.footer-social svg{
+    width: 35px;
+    height: 35px;
+}

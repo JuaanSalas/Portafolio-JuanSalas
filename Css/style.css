@@ -64,6 +64,7 @@ body {
     gap: 1rem;
     margin-top: 5rem;
 }
+
 @media(max-width: 767px){
     .navigation {
         gap: 1rem;
@@ -90,4 +91,21 @@ body {
         flex-direction: column;
         margin-top: 2rem;
     }
+    .container-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-social {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .footer-social a {
+        width: 35px;
+        height: 35px;
+    }
+    .footer-social svg {
+        width: 20px;
+        height: 20px;
+    }
 }
+
