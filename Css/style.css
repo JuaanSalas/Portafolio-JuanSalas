@@ -41,13 +41,26 @@ h1 {
     color: var(--texto-color);
     padding: 5px;
 }
-.saludo { 
-    font-size: 4rem;
-    font-family:var(--texto-letras);
-    color: #ff6b35;
+.presentar {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.saludo {
+    font-size: 3.25rem;
+    font-family: var(--texto-letras);
+    color: #ff6b35;
     margin-top: 6rem;
+    margin-bottom: 0;
+}
+.saludo2 {
+    color: var(--texto-color);
+    font-family: var(--texto-letras);
+    font-size: large;
+    margin-bottom: 0;
 }
 body {
     background-color: #444443;
@@ -61,9 +74,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
-
 @media(max-width: 767px){
     .encabezado {
         display: flex;
@@ -82,9 +94,12 @@ body {
         font-size: 0.9rem;
         padding: 0.4rem 0.6rem;
     }
-    .saludo {
-        font-size: 4rem;
-        margin: 1.5rem 0;
+    .presentar .saludo{
+        margin-top: 1rem;
+        font-size: 2.5rem;
+    }
+    .presentar .saludo2 {
+        font-size: 17px;
     }
     .container-sobremi pre{
         font-size: 1rem;
@@ -132,14 +147,27 @@ body {
     }
 }
 @media(max-width: 480px){
+    .encabezado {
+        line-height: 12px;
+    }
+    h1 {
+        font-size: 1.75rem;
+    }
     .navigation {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .saludo {
-        font-size: 3.25rem;
-        margin: 1.5rem 0;
+    .navigation a {
+        font-size: 12px;
+    }
+    .presentar .saludo  {
+        font-size: 1.75rem;
+        margin: 0;
+    }
+    .presentar .saludo2 {
+        margin-top:10px ;
+        font-size: 13px;
     }
     .sobremi span {
         width: 9px;
@@ -149,6 +177,8 @@ body {
         margin-top: 2px;
         margin-bottom: 8px;
         font-size: 11px;
+        white-space: pre-wrap;  /* Conserva el formato de código pero permite salto de linea */
+        word-break: break-word; /* Si un string es muy largo, lo pasa abajo */
     }
     .main-container p {
         font-size: 12px;

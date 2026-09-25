@@ -22,11 +22,14 @@
     transition: background-color 0.4s ease;
     transition: transform 0.3s ease;
 }
+.footer-info {
+    font-size: large;
+}
 .footer-social a:hover {
     background-color: black;
     transform: scale(1.1);
 }
 .footer-social svg{
-    width: 35px;
-    height: 35px;
+    width: 38px;
+    height: 38px;
 }
