@@ -65,30 +65,54 @@ body {
 }
 
 @media(max-width: 767px){
-    .navigation {
-        gap: 1rem;
-    }
     .encabezado {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem 1rem;
-}
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.5rem;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: row; 
+        gap: 0.5rem;
+        padding: 0;
+    }
+    .navigation a {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.6rem;
+    }
     .saludo {
         font-size: 4rem;
         margin: 1.5rem 0;
     }
-    .tarjeta-sobremi {
-        width: 95%;
-        padding: 0.75rem;
-    }
-    pre {
-        font-size: 14px;
-        overflow-x: auto;
+    .container-sobremi pre{
+        font-size: 1rem;
     }
     .main-container {
         flex-direction: column;
         margin-top: 2rem;
+    }
+    .estudios h2, .experiencia h2, .proyectos  h2{
+        font-size: 1.5rem;
+    }
+    .estudios h3, h4 {
+        font-size: 1.15rem;
+    }
+    .main-container p {
+        font-size: 1rem;
+    }
+    .proyecto {
+    text-align: center;
+    }
+    .proyecto h3 {
+        font-size: 1.2rem;
+    }
+    #contacto h2, .contacto h2 {
+        font-size: 1.5rem;
+    }
+    .contacto .container-contacto button {
+        padding: 10px;
     }
     .container-footer {
         flex-direction: column;
@@ -106,11 +130,86 @@ body {
         width: 20px;
         height: 20px;
     }
-    .navigation a {
+}
+@media(max-width: 480px){
+    .navigation {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
+    .saludo {
+        font-size: 3.25rem;
+        margin: 1.5rem 0;
+    }
+    .sobremi span {
+        width: 9px;
+        height: 9px;
+    }
+    .container-sobremi pre {
+        margin-top: 2px;
+        margin-bottom: 8px;
+        font-size: 11px;
+    }
+    .main-container p {
+        font-size: 12px;
+    }
+    .estudios h2, .experiencia h2, .proyectos  h2{
+        font-size: 18px;
+    }
+    .encabezado-estudios img {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+    .estudios h3 {
+        font-size: 13px;
+    }
+    .estudios h4 {
+        font-size: 13px;
+    }
+    .galeria-proyectos {
+        display: flex;
+        flex-direction: column;
+    }
+    .proyectos .proyecto {
+        padding: 3px;
+    }
+    .proyecto h3 {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .proyecto p {
+        font-size: 12px;
+    }
+    .proyectos .enlaces-proyectos a{
+        font-size: 11px;
+    }
+    #contacto h2, .contacto h2 {
+        font-size: 18px;
+    }
+    .contacto .container-contacto label{
+        font-size: 13px;
+    }
+    .contacto .container-contacto input {
+        font-size: 13px;
+    }
+    .contacto .container-contacto textarea {
+        font-size: 13px;
+    }
+    .contacto .container-contacto button {
+        font-size: 12px;
+        padding: 10px;
+    }
+    footer {
+        padding: 15px 0;
+    }
+    .footer-info {
+        font-size: 13px;
+    }
+    .footer-social {
+        gap: 8px;
+    }
+    .footer-social a {
+        width: 28px;
+        height: 28px;
+    }
 }
-
